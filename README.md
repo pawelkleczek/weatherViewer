@@ -4,20 +4,10 @@
 #### by Paweł Kłeczek
 
 Check it out on CodePen:
-https://codepen.io/pawelkleczek/full/oZvzGL/
+http://codepen.io/pawelkleczek/full/WGPRGw/
 
 ## What is this?
 
-Thwitch TV API was done as a part of a Free Code Camp front-end course.
-Basically, it's a web-app, that communicates with twitch.tv through API, and collects
-data about certain channels. If the channel is currently active, it will show the title
-of the current podcast, the logo will be in color, and you will be able to go to the actual
-stream to watch it.
+Weather viewer API uses geolocation function (Web API) to determine users exact location. Afterwards it prepares a query to Open Weather Map API to collect data about users location current weather information and displays it to the user. It uses pure CSS weather icons created by Josh Bader (http://codepen.io/joshbader/full/EjXgqr/). Mechanics uses some javascript, and Web API. User can change degrees from Celsius to Fahrenheit.
 
-![alt tag](images/online.png)
-
-Otherwise, it will show the channel is offline, and logo will be in grayscale.
-
-![alt tag](images/offline.png)
-
-I've used some Bootstrap, and jQuery. Data from Twitch is collected with getJSON cammand.
+![alt tag](images/weather_viewer.png)
